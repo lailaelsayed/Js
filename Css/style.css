@@ -1,0 +1,18 @@
+:root{
+    --mainfont:arial;
+}
+.mainfont{
+    font-family: var(--mainfont);
+}
+h2{
+    color:#AAAAAA;
+}
+.test{
+    background:linear-gradient(#eeeeee,#ffffff)
+}
+#warning1 ,#warning2,#warning3{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    display: block;
+}
