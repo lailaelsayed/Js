@@ -70,14 +70,14 @@ function add(){
                     warningDiv1.classList.remove('d-none');
                     warningDiv1.innerHTML ='this url already exist';
                     warningDiv2.classList.add('d-none');
-                    buttonValue.innerHTML='submit';
+                    buttonValue.innerHTML='Submit';
                 }
                 else if((bookmark.name == bookmarkArray[i].name) && (bookmark.url != bookmarkArray[i].url) ){
                     check='found';
                     warningDiv1.classList.remove('d-none');
                     warningDiv1.innerHTML ='this name already exist';
                     warningDiv2.classList.add('d-none');
-                    buttonValue.innerHTML='submit';
+                    buttonValue.innerHTML='Submit';
 
                 }
                 else if((bookmark.name != bookmarkArray[i].name) && (bookmark.url == bookmarkArray[i].url) ){
@@ -85,13 +85,13 @@ function add(){
                     warningDiv1.classList.remove('d-none');
                     warningDiv1.innerHTML ='this url already exist';
                     warningDiv2.classList.add('d-none');           
-                    buttonValue.innerHTML='submit';
+                    buttonValue.innerHTML='Submit';
                 }
             }
 
                 if(check=='notFound'){
                     bookmarkArray.splice(globalIndex,1,bookmark);
-                    buttonValue.innerHTML='submit';
+                    buttonValue.innerHTML='Submit';
                     localStorage.setItem('bookmarkes',JSON.stringify(bookmarkArray))    
                     console.log(bookmarkArray);
                     display(bookmarkArray);
