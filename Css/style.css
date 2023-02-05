@@ -10,7 +10,7 @@ h2{
 .test{
     background:linear-gradient(#eeeeee,#ffffff)
 }
-#warning1 ,#warning2,#warning3{
+#warning1 ,#warning2,#warning3, #warning4{
     background-color: #ffb2b2;
     color: #6d0000;
     border: 1px solid #6d0000;

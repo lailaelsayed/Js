@@ -18,12 +18,13 @@
             <h4 class="fw-bold mb-5">Bookmark your favorite sites</h4>
             <label for="Name" class="mb-3 fw-bold">Site Name</label>
             <input type="text" id="Name" class="form-control w-75 mx-auto" placeholder="BookmarkName">
-            <div id="warning1" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none">Name is required</div>
-            <div id="warning2" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none">this url already exist</div>
+            <div id="warning1" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none"></div>
+            <!-- <div id="warning2" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none">this url already exist</div>
+            <div id="warning4" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none">this name already exist</div> -->
             <label for="url" class="my-3 fw-bold">Site URL</label>
             <input type="url" id="url" class="form-control w-75 mx-auto" placeholder="Website URL">
-            <div id="warning3" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none">Url Field is required</div>
-            <button class="btn btn-primary mt-3" onclick="add()">Submit</button>
+            <div id="warning2" class="w-75 h-25  mx-auto mt-3 py-2 rounded-1 fw-bold d-none"></div>
+            <button class="btn btn-primary mt-3" onclick="add()" id="submit">Submit</button>
         </div>
         <div class="mx-2 " id="container">
 
